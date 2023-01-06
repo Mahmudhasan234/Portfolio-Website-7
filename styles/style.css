@@ -1,0 +1,257 @@
+*{
+   max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+/* header and navbar */
+nav{
+    display: flex;
+   justify-content: space-between;
+   margin: 20px 200px;
+ 
+    
+}
+nav ul{
+    display: flex;
+  
+}
+.navbar{
+    margin-top: 15px;
+}
+.text{
+    font-weight: 800;
+    font-size: 45px;
+}
+.orange-text{
+    color: #FD6E0A;
+}
+nav li{
+    list-style: none;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.orange-button{
+font-weight: 700;
+font-size: 15px;
+color: #FFFFFF;
+border: none;
+padding: 18px 36px;
+
+background-color: #FD6E0A;
+border-radius:5px;
+}
+/* header */
+.headerof{
+    background-color: #FFFFFF;
+    background-image: url(../images/header_bg.png),url(../images/developer.png); 
+    background-repeat: no-repeat;
+    width: 1600px;
+height: 837px;
+left: -12px;
+top: 285px;
+background-position: bottom right,left;
+
+}
+/* Banner */
+.banner{
+   
+    display: flex;
+    
+}
+.banner-h3{
+    position: absolute;
+width: 177px;
+height: 61px;
+left: 230px;
+top: 250px;
+font-weight: 600;
+font-size: 45px;
+}
+.banner-h1{
+position: absolute;
+width: 498px;
+height: 116px;
+left: 230px;
+top: 300px;
+font-weight: 700;
+font-size: 85px;
+}
+.banner-p{
+position: absolute;
+width: 585px;
+height: 60px;
+left: 230px;
+top: 470px;
+font-size: 18px;
+color: #757575;
+
+}
+.banner-button{
+    position: absolute;
+width: 200px;
+height: 64px;
+left: 230px;
+top: 589px;
+}
+.contract-button{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 460px;
+    top: 589px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.banner-img{
+    position: absolute;
+width: 584px;
+height: 676px;
+left: 868px;
+top: 180px;
+
+}
+/* main */
+main{
+    margin: 0 200px;
+    max-width: 1140px;
+    align-items: center;
+
+}
+.about{
+    margin-top: 130px;
+background: #FFF8F3;
+border-radius: 10px;
+padding: 130px 150px;
+text-align: center;
+}
+.section-tittle{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-discription{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.info-tittle{
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #757575;
+}
+.info-discription{
+font-weight: 800;
+font-size: 20px;
+text-align: center;
+color: #474747;
+}
+/* skill */
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+
+}
+.tittle-discription{
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+color: #181818;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+/* resume */
+.resurme-contant{
+    display: flex;
+    gap: 30px;
+}
+.resurme-contant h3{
+    font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+margin-bottom: 30px;
+}
+.resume-tittle{
+    font-weight: 700;
+font-size: 25px;
+line-height: 34px;
+margin-bottom: 10px;
+}
+.resume-discription{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #757575;}
+
+    .resume-details{
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+margin-bottom: 20px;
+
+color: #757575;
+    }
+    .resume-button{
+       text-align: center;
+       margin-top: 30px;
+    }
+    /* footer */
+    .last-section{
+        
+    }
+    .contract{
+        display: flex;
+        background-color: #FFF8F3;
+        gap: 300px;
+    }
+
+.all-icon{
+    padding: 0 30px;
+}
+    
+    .last-details{
+        font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #474747;
+margin-bottom: 20px;
+padding: 0 30px;
+    }
+    .last-tittle{
+    font-weight: 700;
+font-size: 35px;
+line-height: 48px;
+padding: 0 30px;
+
+    }
+    .last-message{
+        font-weight: 700;
+font-size: 35px;
+line-height: 48px; 
+    }
+    .contract input,textarea{
+        margin-bottom: 24px;
+        border: 0;
+        padding: 18px 30px;
+      
+    }
+    input{
+        width: 461px;
+        height: 64px;
+    }
